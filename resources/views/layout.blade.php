@@ -7,8 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Laravel Shop</title>
 
-		{{ HTML::style('/css/app.css') }}
-		{{ HTML::style('//fonts.googleapis.com/css?family=Lato:100') }}
+		<link href="/css/app.css" rel="stylesheet">
+		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<nav class="navbar navbar-default">

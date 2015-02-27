@@ -19,3 +19,8 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+Route::get('admin', 'AdminController@index');
+Route::get('admin/products', 'ProductsController@index');
+Route::get('admin/categories', 'CategoryController@index');
+Route::get('admin/transactions', 'TransactionsController@index');
